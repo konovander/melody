@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #635854;
+    padding: 12px 0 12px 0;
+    border-bottom: 4px solid #3596F5;
+}
+
+.navbar {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {}
+
+.navbar-nav {}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    /* отключаем внешние отступы  */
+    padding: 0;
+    /* отключаем внутренние отступы  */
+    list-style: none;
+    /* отключаем точки у списка */
+    text-align: center;
+}
+
+.navbar-item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+.navbar-contacts {
+    text-align: right;
+}
+
+.navbar-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    display: block;
+    margin-bottom: 4px;
+}
+
+.navbar-phone {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
