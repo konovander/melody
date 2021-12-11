@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'),
+        url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+        url('../fonts/BebasNeueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -19,10 +29,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
-.logo {}
-
-.navbar-nav {}
 
 .navbar-menu {
     display: flex;
@@ -80,3 +86,96 @@ body {
 
     text-decoration: none;
 }
+
+.main {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-svg path {
+    opacity: 0;
+}
+
+.home-svg path:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.main-floor {
+    flex-grow: 1;
+    /* margin: auto; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #635854;
+}
+
+.counter-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.counter-button {
+    /* background: #3596F5; */
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.counter {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 124px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #635854;
+}
+
+.counter-arrow-down {
+    transform: rotateX(180deg);
+}
+
+.view-apartments {
+    background: #3596F5;
+    border-radius: 6px;
+
+    /* Смотреть квартиры на этаже */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: none;
+    padding: 16px 36px;
+    cursor: pointer;
+}
+
+/* .view-apartments:hover {
+    cursor: pointer;
+} */
