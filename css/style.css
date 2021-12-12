@@ -104,6 +104,10 @@ body {
     cursor: pointer;
 }
 
+path.current-floor {
+    opacity: 1;
+}
+
 .main-floor {
     flex-grow: 1;
     /* margin: auto; */
